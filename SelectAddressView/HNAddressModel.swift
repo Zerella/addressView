@@ -1,9 +1,9 @@
 //
 //  HNAddressModel.swift
-//  Merchant
+//  SelectAddressView
 //
-//  Created by yangzhilan on 2017/9/4.
-//  Copyright © 2017年 huanniu. All rights reserved.
+//  Created by Zerella on 2017/9/4.
+//  Copyright © 2017年 Zerella. All rights reserved.
 //
 
 import UIKit

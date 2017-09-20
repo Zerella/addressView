@@ -23,8 +23,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9o9-RQ-H89">
                                 <rect key="frame" x="248" y="138.5" width="62" height="30"/>
-                                <color key="backgroundColor" red="0.81764332930000005" green="1" blue="0.92091329190000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="选择地址"/>
+                                <state key="normal" title="选择地址">
+                                    <color key="titleColor" red="0.77531135080000002" green="0.20899777110000001" blue="0.16186563670000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
                                     <action selector="addressBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zjc-QO-ELz"/>
                                 </connections>
@@ -36,12 +37,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.9690658137" green="1" blue="0.96512172730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YNw-26-Qj3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="2E6-cI-R3d"/>
                             <constraint firstItem="9o9-RQ-H89" firstAttribute="centerY" secondItem="YNw-26-Qj3" secondAttribute="centerY" id="BIe-c6-gq1"/>
                             <constraint firstAttribute="trailing" secondItem="9o9-RQ-H89" secondAttribute="trailing" constant="10" id="CIf-Me-Kqy"/>
-                            <constraint firstItem="YNw-26-Qj3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="c8n-gr-dSE"/>
+                            <constraint firstItem="YNw-26-Qj3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="bBd-9b-DZN"/>
                         </constraints>
                     </view>
                     <connections>
