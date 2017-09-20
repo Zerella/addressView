@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="HNSelectAddressCell" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="HNSelectAddressCell" customModule="Merchant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="77" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="77" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地址" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmC-p4-GXJ">
+                        <rect key="frame" x="10" y="13" width="29" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="address_select_yes.png" translatesAutoresizingMaskIntoConstraints="NO" id="RCx-Re-f67">
+                        <rect key="frame" x="57" y="14" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="4bd-sf-vcd"/>
+                            <constraint firstAttribute="height" constant="15" id="8oe-O5-t4a"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VmC-p4-GXJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6ij-ea-LWw"/>
+                    <constraint firstItem="RCx-Re-f67" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="C9t-F3-DAw"/>
+                    <constraint firstItem="VmC-p4-GXJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Eyf-Rf-2pp"/>
+                    <constraint firstItem="RCx-Re-f67" firstAttribute="leading" secondItem="VmC-p4-GXJ" secondAttribute="trailing" constant="18" id="US6-eD-aBb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLab" destination="VmC-p4-GXJ" id="d0S-av-dHR"/>
+                <outlet property="selectImageView" destination="RCx-Re-f67" id="fBI-di-QL1"/>
+            </connections>
+            <point key="canvasLocation" x="-87.5" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="address_select_yes.png" width="200" height="200"/>
+    </resources>
+</document>

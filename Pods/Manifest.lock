@@ -1,0 +1,15 @@
+PODS:
+  - HandyJSON (1.7.2)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - HandyJSON (~> 1.7.2)
+  - Masonry (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 6ad2580046a87268e114b827d4aa6feeb08c15e2
+
+COCOAPODS: 1.2.1
