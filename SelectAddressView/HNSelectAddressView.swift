@@ -126,10 +126,6 @@ class HNSelectAddressView: UIView,UITableViewDelegate,UITableViewDataSource,UIGe
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell:HNSelectAddressCell = tableView.dequeueReusableCell(withIdentifier: selectAddressCell) as!HNSelectAddressCell
-        if cell.isSelected {
-             cell.selectImageView.isHidden = false
-        }
         // 当前等于省
         if currentArray?.count == provinceArray?.count {
             provinceModel  = currentArray![indexPath.row] as! HNProvinceList

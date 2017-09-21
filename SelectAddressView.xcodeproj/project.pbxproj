@@ -20,6 +20,9 @@
 		283596141F72517E00964DF8 /* cityes.json in Resources */ = {isa = PBXBuildFile; fileRef = 283596131F72517E00964DF8 /* cityes.json */; };
 		283596171F72531100964DF8 /* HNSelectAddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283596151F72531100964DF8 /* HNSelectAddressCell.swift */; };
 		283596181F72531100964DF8 /* HNSelectAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283596161F72531100964DF8 /* HNSelectAddressCell.xib */; };
+		28910D8D1F734F34005968B1 /* quxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 28910D8A1F734F34005968B1 /* quxiao.png */; };
+		28910D8E1F734F34005968B1 /* quxiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28910D8B1F734F34005968B1 /* quxiao@2x.png */; };
+		28910D8F1F734F34005968B1 /* quxiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28910D8C1F734F34005968B1 /* quxiao@3x.png */; };
 		ABD2289B872C7CDEBBB14CC4 /* Pods_SelectAddressView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8C4BFC895433BADFEC6D2A /* Pods_SelectAddressView.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		283596131F72517E00964DF8 /* cityes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cityes.json; sourceTree = "<group>"; };
 		283596151F72531100964DF8 /* HNSelectAddressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HNSelectAddressCell.swift; sourceTree = "<group>"; };
 		283596161F72531100964DF8 /* HNSelectAddressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HNSelectAddressCell.xib; sourceTree = "<group>"; };
+		28910D8A1F734F34005968B1 /* quxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quxiao.png; sourceTree = "<group>"; };
+		28910D8B1F734F34005968B1 /* quxiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quxiao@2x.png"; sourceTree = "<group>"; };
+		28910D8C1F734F34005968B1 /* quxiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quxiao@3x.png"; sourceTree = "<group>"; };
 		5B2AC421D22616EFBB709C16 /* Pods-SelectAddressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectAddressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelectAddressView/Pods-SelectAddressView.debug.xcconfig"; sourceTree = "<group>"; };
 		7A8C4BFC895433BADFEC6D2A /* Pods_SelectAddressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectAddressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -125,16 +131,19 @@
 		283595DE1F724EB000964DF8 /* SelectAddressView */ = {
 			isa = PBXGroup;
 			children = (
-				283596111F72516100964DF8 /* HNAddressModel.swift */,
 				283595DF1F724EB000964DF8 /* AppDelegate.swift */,
 				283595E11F724EB000964DF8 /* ViewController.swift */,
 				2835960D1F72514000964DF8 /* HNSelectAddressView.swift */,
 				2835960E1F72514000964DF8 /* HNSelectAddressView.xib */,
 				283596151F72531100964DF8 /* HNSelectAddressCell.swift */,
 				283596161F72531100964DF8 /* HNSelectAddressCell.xib */,
+				283596111F72516100964DF8 /* HNAddressModel.swift */,
 				283596131F72517E00964DF8 /* cityes.json */,
 				283595E31F724EB000964DF8 /* Main.storyboard */,
 				283595E61F724EB000964DF8 /* Assets.xcassets */,
+				28910D8A1F734F34005968B1 /* quxiao.png */,
+				28910D8B1F734F34005968B1 /* quxiao@2x.png */,
+				28910D8C1F734F34005968B1 /* quxiao@3x.png */,
 				283595E81F724EB000964DF8 /* LaunchScreen.storyboard */,
 				283595EB1F724EB000964DF8 /* Info.plist */,
 			);
@@ -281,11 +290,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				283595EA1F724EB000964DF8 /* LaunchScreen.storyboard in Resources */,
+				28910D8E1F734F34005968B1 /* quxiao@2x.png in Resources */,
 				283595E71F724EB000964DF8 /* Assets.xcassets in Resources */,
+				28910D8F1F734F34005968B1 /* quxiao@3x.png in Resources */,
 				283595E51F724EB000964DF8 /* Main.storyboard in Resources */,
 				283596101F72514000964DF8 /* HNSelectAddressView.xib in Resources */,
 				283596181F72531100964DF8 /* HNSelectAddressCell.xib in Resources */,
 				283596141F72517E00964DF8 /* cityes.json in Resources */,
+				28910D8D1F734F34005968B1 /* quxiao.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
